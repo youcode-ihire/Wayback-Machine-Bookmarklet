@@ -1,0 +1,1 @@
+javascript:(function(){if(location.href.indexOf('http')!=0){input=prompt('URL:','http://');if(input!=null){location.href='http://web.archive.org/web/*/'+input}}else{location.href='http://web.archive.org/web/*/'+location.href;}})();
